@@ -12,7 +12,7 @@
 
 > **from $0.03 per image** (4K $0.04) — one OpenAI-compatible endpoint at `https://api.apimart.ai/v1`, no monthly plan required. *(observed 2026-10-12)*
 
-**[Get an API key](https://go.apimart.ai/k-PENDING-nano-banana-pro-api-api-keys)** · **[Live pricing](https://go.apimart.ai/k-PENDING-nano-banana-pro-api-api-pricing)** · **[Model page](https://go.apimart.ai/k-PENDING-nano-banana-pro-api-api-model)** · [⚡ 60-second quickstart](#quickstart)
+**[Get an API key](https://go.apimart.ai/k-057854)** · **[Live pricing](https://go.apimart.ai/k-835bcd)** · **[Model page](https://go.apimart.ai/k-b2d612)** · [⚡ 60-second quickstart](#quickstart)
 
 **Why teams call Nano Banana Pro (`gemini-3-pro-image-preview`) through APIMart**
 
@@ -29,7 +29,7 @@ Nano Banana Pro is Google's Gemini 3 Pro Image for 4K image generation and editi
 
 | Route | `model` value | Billing | Notes |
 | --- | --- | --- | --- |
-| Per-image | `gemini-3-pro-image-preview` | per delivered image, by resolution | see the [model page](https://go.apimart.ai/k-PENDING-nano-banana-pro-api-api-model) for the exact tiers |
+| Per-image | `gemini-3-pro-image-preview` | per delivered image, by resolution | see the [model page](https://go.apimart.ai/k-b2d612) for the exact tiers |
 
 Endpoint: `POST https://api.apimart.ai/v1/images/generations` (OpenAI-compatible), then poll `GET /v1/tasks/{task_id}`.
 
@@ -44,7 +44,7 @@ Endpoint: `POST https://api.apimart.ai/v1/images/generations` (OpenAI-compatible
 
 <!-- pricing:model:end -->
 
-Prices are a snapshot; the [pricing page](https://go.apimart.ai/k-PENDING-nano-banana-pro-api-api-pricing) and [`data/model.json`](data/model.json) are refreshed by CI, and a completed task reports the exact amount in its `cost` field.
+Prices are a snapshot; the [pricing page](https://go.apimart.ai/k-835bcd) and [`data/model.json`](data/model.json) are refreshed by CI, and a completed task reports the exact amount in its `cost` field.
 
 ## Request parameters
 
@@ -58,7 +58,7 @@ Prices are a snapshot; the [pricing page](https://go.apimart.ai/k-PENDING-nano-b
 | `image_urls` | string[] | — | reference images as public HTTP(S) URLs or base64 data URLs |
 | `nsfw_check` | boolean | `false` | runs `omni-moderation-latest` before submitting |
 
-The table lists the fields accepted by the APIMart OpenAI-compatible image endpoint. Check the [model page](https://go.apimart.ai/k-PENDING-nano-banana-pro-api-api-model) for anything this model adds on top.
+The table lists the fields accepted by the APIMart OpenAI-compatible image endpoint. Check the [model page](https://go.apimart.ai/k-b2d612) for anything this model adds on top.
 
 ## Quickstart
 
@@ -101,15 +101,15 @@ Runnable versions: [`examples/`](examples). The task lifecycle is `pending → p
 
 **How do I get a key?**
 
-Use the [Get an API key](https://go.apimart.ai/k-PENDING-nano-banana-pro-api-api-keys) link — $1 minimum top-up, no plan required.
+Use the [Get an API key](https://go.apimart.ai/k-057854) link — $1 minimum top-up, no plan required.
 
 ## Attributed links (how this repository is measured)
 
 | Purpose | Attributed link | Target |
 | --- | --- | --- |
-| Model page | <https://go.apimart.ai/k-PENDING-nano-banana-pro-api-api-model> | `apimart.ai/model/nano-banana-3-api` |
-| Live pricing | <https://go.apimart.ai/k-PENDING-nano-banana-pro-api-api-pricing> | `apimart.ai/pricing` |
-| Get an API key | <https://go.apimart.ai/k-PENDING-nano-banana-pro-api-api-keys> | `apimart.ai/keys` |
+| Model page | <https://go.apimart.ai/k-b2d612> | `apimart.ai/model/nano-banana-3-api` |
+| Live pricing | <https://go.apimart.ai/k-835bcd> | `apimart.ai/pricing` |
+| Get an API key | <https://go.apimart.ai/k-057854> | `apimart.ai/keys` |
 
 Outbound APIMart links are minted through the promo link API; hand-made tracking parameters are rejected by
 `tools/check_links.py` in CI.
